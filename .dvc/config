@@ -1,0 +1,6 @@
+[core]
+    remote = amazon
+['remote "amazon"']
+    url = s3://catanddogexample
+    region = eu-north-1
+    profile = kumud

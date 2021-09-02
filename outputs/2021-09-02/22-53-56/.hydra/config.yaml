@@ -1,0 +1,8 @@
+root_dir: data
+data:
+  download:
+    url: https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
+    zip_file: cats_and_dogs_filtered.zip
+    sub_dir: raw
+    raw_path: /home/kumud/CAT-DOG/data
+    dir: data

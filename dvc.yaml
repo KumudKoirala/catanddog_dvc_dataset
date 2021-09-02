@@ -1,0 +1,8 @@
+stages:
+  download_dataset:
+    cmd: python scripts/download.py hydra.run.dir="data" &>logs/download.out
+    deps:
+      - scripts/download.py
+    outs:
+       - logs/download.out
+       - data/raw
